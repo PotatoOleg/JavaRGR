@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="250.0" prefWidth="466.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javargr.Controllers.AddBankAccountController">
+   <children>
+      <TextField fx:id="accountId" layoutX="159.0" layoutY="71.0" promptText="id счёта" />
+      <Button fx:id="addAccountButton" layoutX="196.0" layoutY="184.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Button" />
+   </children>
+</AnchorPane>
